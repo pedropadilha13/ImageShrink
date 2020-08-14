@@ -1,0 +1,24 @@
+{
+  "name": "imageshrink",
+  "version": "1.0.0",
+  "description": "App to optimize images",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "nodemon --exec electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedropadilha13/imageshrink.git"
+  },
+  "author": "Pedro Padilha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedropadilha13/imageshrink/issues"
+  },
+  "homepage": "https://github.com/pedropadilha13/imageshrink#readme",
+  "devDependencies": {
+    "electron": "^9.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
